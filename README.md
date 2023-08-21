@@ -42,3 +42,25 @@ Before you begin, ensure you have the following software installed:
    ```bash
    git clone https://github.com/yourusername/creamy-app.git
    cd creamy-app
+  Compile the code:
+g++ -o creamy-app main.cpp -lcurl -std=c++11
+
+
+Usage
+Run the compiled executable:
+./creamy-app
+
+Choose from the following options:
+
+Register as a new user
+Log in to an existing account
+Use the sun exposure timer
+Get real-time weather information
+...
+## Contributing
+We welcome contributions from the community! If you'd like to contribute, please follow these steps:
+
+Fork the repository.
+Create a new branch for your feature or bug fix.
+Make your changes and commit them.
+Submit a pull request.
